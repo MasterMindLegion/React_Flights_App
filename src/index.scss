@@ -5,13 +5,27 @@
 html {
   font-family: Helvetica;
   font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .container {
   display: flex;
+ 
+  width: 100%;
   margin-top: .5rem;
   // justify-content: space-between;
 
+}
+.dir {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+.direction {
+  order: -1;
 }
 
 .user_panel_container {
